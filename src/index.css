@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .inputs {
+        @apply bg-gray-700 border border-gray-600 text-white text-sm rounded-lg block w-full p-2.5
+    }
+
+    .inputs:focus {
+        @apply ring-blue-500 border-blue-500
+    }
+}
